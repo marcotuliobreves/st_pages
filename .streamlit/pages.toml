@@ -1,1 +1,59 @@
-../example_app/.streamlit/pages.toml
+[[pages]]
+path = "pages/0_Login.py"
+name = "Login"
+
+[[pages]]
+path = "pages/1_home.py"
+name = "Início"
+icon = ":house:"
+
+[[pages]]
+path = "pages/2_farms.py"
+name = "Fazendas"
+icon = "🌾"
+
+[[pages]]
+path = "pages/3_pro_carbon.py"
+name = "PRO Carbono"
+icon = "🌿"
+
+[[pages]]
+path = "pages/4_0_commodities.py"
+name = "Commodities"
+icon = "𓇢"
+
+[[pages]]
+path = "pages/4_1_commodities_farms.py"
+name = "Commodities Fazendas"
+
+[[pages]]
+path = "pages/4_2_commodities_fields.py"
+name = "Commodities Talhões"
+
+[[pages]]
+path = "pages/4_3_commodities_fields_new_inventary.py"
+name = "Commodities Talhões Novo Inventário"
+
+[[pages]]
+path = "pages/4_4_commodities_fields_automated_inventary.py"
+name = "Commodities Inventário Automatizado"
+
+[[pages]]
+path = "pages/5_adm_regeneration.py"
+name = "ADM Regeneração"
+icon = "🌎"
+
+[[pages]]
+path = "pages/6_benefits.py"
+name = "Benefícios"
+icon = "🏷️"
+
+[[pages]]
+path = "pages/7_users.py"
+name = "Usuários"
+icon = "👤"
+
+[[pages]]
+path = "pages/8_logout.py"
+name = "Sair"
+icon = "➡"
